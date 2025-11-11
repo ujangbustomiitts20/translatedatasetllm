@@ -27,11 +27,11 @@ Translation is performed in **batches** with real-time progress tracking using `
 
 ```mermaid
 flowchart TD
-    A[Input Folder (.parquet files)] --> B[Read Parquet File (Pandas)]
-    B --> C[Extract 'question' and 'multiple_choice_answer' Columns]
-    C --> D[Translate in Batches of 20 Rows (HF pipeline)]
-    D --> E[Save Translated File (.parquet)]
-    E --> F[Output Folder with Translated Files]
+    A["Input Folder (.parquet files)"] --> B["Read Parquet File (Pandas)"]
+    B --> C["Extract 'question' and 'multiple_choice_answer' Columns"]
+    C --> D["Translate in Batches of 20 Rows (HF pipeline)"]
+    D --> E["Save Translated File (.parquet)"]
+    E --> F["Output Folder with Translated Files"]
 ```
 
 ---
