@@ -2,28 +2,28 @@ Here’s the English version of the **README.md** for your project:
 
 ---
 
-# 🗣️ Parquet English–Indonesian Translator
+#  Parquet English–Indonesian Translator
 
 This script is used to **translate `.parquet` dataset files** containing English text into **Indonesian**, using the **Hugging Face model `Helsinki-NLP/opus-mt-en-id`**.
 
-## 📋 Project Description
+##  Project Description
 
 The script processes all `.parquet` files in an input folder, translates text columns such as `question` and `multiple_choice_answer`, and saves the results into a new output folder in `.parquet` format.
 Translation is performed in **batches** with real-time progress tracking using `tqdm`, making the process efficient and easy to monitor.
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
-* ✅ Supports **batch translation** (20 rows per iteration) for efficiency
-* ✅ Uses **Transformer-based translation model** (`Helsinki-NLP/opus-mt-en-id`)
-* ✅ Works with both **CPU and GPU** (`--use_gpu` flag)
-* ✅ Automatically processes all `.parquet` files in a directory
-* ✅ Displays real-time progress via `tqdm`
+*  Supports **batch translation** (20 rows per iteration) for efficiency
+*  Uses **Transformer-based translation model** (`Helsinki-NLP/opus-mt-en-id`)
+*  Works with both **CPU and GPU** (`--use_gpu` flag)
+*  Automatically processes all `.parquet` files in a directory
+*  Displays real-time progress via `tqdm`
 
 ---
 
-## 🧠 Logical Workflow
+##  Logical Workflow
 
 ```mermaid
 flowchart TD
@@ -36,7 +36,7 @@ flowchart TD
 
 ---
 
-## 🧰 Installation
+##  Installation
 
 Set up your Python virtual environment and install the required dependencies:
 
@@ -46,7 +46,7 @@ pip install torch transformers pandas tqdm pyarrow
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 Execute the script with the following command:
 
@@ -76,7 +76,7 @@ Example execution:
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 dataset/
@@ -93,7 +93,7 @@ dataset/
 
 ---
 
-## 🧩 Main Functions
+##  Main Functions
 
 | Function                   | Description                                                                              |
 | -------------------------- | ---------------------------------------------------------------------------------------- |
@@ -111,10 +111,10 @@ dataset/
 
 ---
 
-## 📜 License
+##  License
 
 This project uses the open translation model [Helsinki-NLP/opus-mt-en-id](https://huggingface.co/Helsinki-NLP/opus-mt-en-id) from Hugging Face and is intended for **research and non-commercial use**.
 
 ---
 
-Would you like me to add a **“Sample Input–Output Translation Example”** section next? It can help make the README more practical for readers on GitHub.
+
