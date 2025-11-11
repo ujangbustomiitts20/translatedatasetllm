@@ -27,11 +27,12 @@ Proses diterjemahkan dilakukan secara **batching** dan **progress bar** mengguna
 
 ```mermaid
 flowchart TD
-    A[Input Folder .parquet] --> B[Baca File Parquet (Pandas)]
-    B --> C[Ambil Kolom 'question' dan 'multiple_choice_answer']
-    C --> D[Terjemahkan Batch per 20 Baris (HF pipeline)]
-    D --> E[Simpan ke File Parquet Baru]
-    E --> F[Output Folder Terjemahan]
+  A["Input Folder .parquet"] --> B["Baca File Parquet (Pandas)"]
+  B --> C["Ambil Kolom 'question' dan 'multiple_choice_answer'"]
+  C --> D["Terjemahkan Batch per 20 Baris (HF pipeline)"]
+  D --> E["Simpan ke File Parquet Baru"]
+  E --> F["Output Folder Terjemahan"]
+
 ```
 
 ---
