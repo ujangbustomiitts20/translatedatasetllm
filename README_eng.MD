@@ -1,7 +1,7 @@
 Here’s the English version of the **README.md** for your project:
 
 ---
-
+ 
 #  Parquet English–Indonesian Translator
 
 This script is used to **translate `.parquet` dataset files** containing English text into **Indonesian**, using the **Hugging Face model `Helsinki-NLP/opus-mt-en-id`**.
