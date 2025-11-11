@@ -2,28 +2,28 @@
 
 ---
 
-# 🗣️ Parquet English–Indonesian Translator
+#  Parquet English–Indonesian Translator
 
 Skrip ini digunakan untuk **menerjemahkan dataset dalam format `.parquet`** yang berisi teks berbahasa Inggris ke dalam **Bahasa Indonesia**, menggunakan model **Hugging Face `Helsinki-NLP/opus-mt-en-id`**.
 
-## 📋 Deskripsi Proyek
+##  Deskripsi Proyek
 
 Skrip ini memproses seluruh file `.parquet` di sebuah folder input, menerjemahkan kolom teks seperti `question` dan `multiple_choice_answer`, lalu menyimpan hasil terjemahan ke folder output dalam format `.parquet` baru.
 Proses diterjemahkan dilakukan secara **batching** dan **progress bar** menggunakan `tqdm` agar lebih efisien dan mudah dipantau.
 
 ---
 
-## ⚙️ Fitur Utama
+##  Fitur Utama
 
-* ✅ Mendukung **batch translation** (20 baris per iterasi) untuk efisiensi.
-* ✅ Menggunakan **model machine translation** berbasis Transformer (`Helsinki-NLP/opus-mt-en-id`).
-* ✅ Kompatibel dengan CPU maupun GPU (`--use_gpu`).
-* ✅ Mendukung banyak file `.parquet` sekaligus dalam satu eksekusi.
-* ✅ Menampilkan progress dengan `tqdm`.
+*  Mendukung **batch translation** (20 baris per iterasi) untuk efisiensi.
+*  Menggunakan **model machine translation** berbasis Transformer (`Helsinki-NLP/opus-mt-en-id`).
+*  Kompatibel dengan CPU maupun GPU (`--use_gpu`).
+*  Mendukung banyak file `.parquet` sekaligus dalam satu eksekusi.
+*  Menampilkan progress dengan `tqdm`.
 
 ---
 
-## 🧠 Arsitektur Logika
+##  Arsitektur Logika
 
 ```mermaid
 flowchart TD
@@ -37,7 +37,7 @@ flowchart TD
 
 ---
 
-## 🧰 Instalasi
+##  Instalasi
 
 Pastikan sudah menyiapkan **virtual environment (venv)** dan menginstal dependensi berikut:
 
@@ -47,7 +47,7 @@ pip install torch transformers pandas tqdm pyarrow
 
 ---
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 
 Jalankan perintah berikut di terminal:
 
@@ -77,7 +77,7 @@ Contoh eksekusi:
 
 ---
 
-## 📂 Struktur Folder
+##  Struktur Folder
 
 ```
 dataset/
@@ -94,7 +94,7 @@ dataset/
 
 ---
 
-## 🧩 Fungsi Utama
+##  Fungsi Utama
 
 | Fungsi                     | Deskripsi                                                                              |
 | -------------------------- | -------------------------------------------------------------------------------------- |
@@ -104,7 +104,7 @@ dataset/
 
 ---
 
-## ⚡ Catatan Tambahan
+##  Catatan Tambahan
 
 * Gunakan GPU (`--use_gpu`) untuk performa yang lebih cepat, terutama pada dataset besar.
 * Pastikan model sudah otomatis diunduh dari Hugging Face saat pertama kali dijalankan.
@@ -112,10 +112,10 @@ dataset/
 
 ---
 
-## 📜 Lisensi
+##  Lisensi
 
 Proyek ini menggunakan model terbuka dari [Hugging Face Transformers](https://huggingface.co/Helsinki-NLP/opus-mt-en-id) dan dapat digunakan untuk keperluan penelitian maupun eksperimen non-komersial.
 
 ---
 
-Apakah Kakak ingin saya tambahkan bagian **contoh hasil input-output (before vs after translation)** juga di README-nya? Itu bisa membantu dokumentasi GitHub-nya lebih interaktif.
+
