@@ -1,5 +1,9 @@
 
+
+---
+
 # 🗣️ Parquet English–Indonesian Translator
+
 Skrip ini digunakan untuk **menerjemahkan dataset dalam format `.parquet`** yang berisi teks berbahasa Inggris ke dalam **Bahasa Indonesia**, menggunakan model **Hugging Face `Helsinki-NLP/opus-mt-en-id`**.
 
 ## 📋 Deskripsi Proyek
@@ -114,4 +118,3 @@ Proyek ini menggunakan model terbuka dari [Hugging Face Transformers](https://hu
 ---
 
 Apakah Kakak ingin saya tambahkan bagian **contoh hasil input-output (before vs after translation)** juga di README-nya? Itu bisa membantu dokumentasi GitHub-nya lebih interaktif.
-
